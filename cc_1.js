@@ -31,3 +31,8 @@ console.log("Balance after dividing:", accountBalance);
 
 let customerName = "Anna";
 console.log("Welcome",customerName, "Hope you enjoy this website")
+
+let isLoggedIn = true;
+
+console.log(isLoggedIn && "You have access");
+console.log(!isLoggedIn && "You do not have access. Please log in and try again.");
