@@ -29,3 +29,5 @@ console.log("Balance after multiplying:", accountBalance);
 accountBalance = accountBalance / 1.1;
 console.log("Balance after dividing:", accountBalance);
 
+let customerName = "Anna";
+console.log("Welcome",customerName, "Hope you enjoy this website")
