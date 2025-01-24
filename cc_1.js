@@ -14,3 +14,18 @@ var isAvailable = true;
 console.log("Product Name:", productName, "Is a type of", typeof productName);
 console.log("Product Price:", productPrice, "Is a type of", typeof productPrice);
 console.log("Is Available:", isAvailable, "Is a type of", typeof isAvailable);
+
+
+let accountBalance = 90000;
+accountBalance = accountBalance + 1000;
+console.log("Balance after addition:", accountBalance);
+
+accountBalance = accountBalance - 1000;
+console.log("Balance after subtraction:", accountBalance);
+
+accountBalance = accountBalance * 1.2;
+console.log("Balance after multiplying:", accountBalance);
+
+accountBalance = accountBalance / 1.1;
+console.log("Balance after dividing:", accountBalance);
+
